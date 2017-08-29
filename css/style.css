@@ -1,0 +1,159 @@
+body{
+	background-image: url('../img/background.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+	/*Site */
+div.x{
+	float: right;
+}
+div.site{
+	width:100%;
+	height: 100%;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+	/*Logo*/
+div.Logo{
+	width: 600px;
+	height: 300px;
+	align-items: center;
+}
+
+div.Logo img{
+	margin-left: 100px;
+	margin-top: 50px;
+	width:  432px;
+	height: 156px;
+}
+
+	/*Conteudo Direita Home*/
+div.descrição{
+	float: right;
+	width: 400px;
+	height: 400px;
+	margin-top: 0;
+	margin-right: 400px;
+}
+div.descrição p{
+	text-align: center;
+	margin-top: 130px;
+	font-size: 40px;
+	font-family: Impact, Charcoal, sans-serif;
+}
+div.descrição a{
+	text-decoration: none; 
+	color: #FF8C00;
+}
+
+div.descrição a:hover{
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 40px;
+	color: #FF4500;
+}
+
+
+	/*Conteudo Esquerda Home*/
+div.produtos{
+	float: left;
+	width: 400px;
+	height: 525px;
+	margin-top: 50px;
+}
+
+div.produtos ul{
+    margin-top: 0px;
+    list-style:none;
+    margin-bottom: 50px;
+	margin-left: 10%;
+}
+div.produtos ul li#categorias{
+	color: #800000;
+	font-size: 50px;
+	font-family: Impact, Charcoal, sans-serif;
+}
+div.produtos ul li{
+	padding: 40px;
+}
+div.produtos ul li a{
+	font-size: 30px;
+	color: #FF8C00;
+	text-decoration: none;
+	font-family: Impact, Charcoal, sans-serif;
+	position: absolute;
+}
+
+div.produtos ul li a:hover{
+	color: #FF4500;
+	text-shadow: 0 0 5px rgba(255, 255, 0,0.8);
+	font-size: 30px;
+}
+
+
+	/*Rodapé*/
+
+.footer-wrap{ 
+	width: 100%;
+	height: 80px;
+	background-image: url('../img/backgroundCat.png');
+	background-repeat: no-repeat;
+	background-size: 100% 80px;
+    overflow:hidden;
+    color: red;
+}
+.footer {
+    width:100%;
+    margin:0 auto;
+    }
+.footer p{
+	text-align: center;
+	margin-bottom: 4px;
+
+}
+
+.footer p a{
+	text-decoration: none;
+    color: #FF8C00;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+
+.footer p a:hover{
+	text-align: center;
+    color: #FF4500;
+}
+
+
+	/*Produtos pag2 a 5*/
+.conteudo h1{
+	background-image: url('../img/backgroundCat.png');
+	background-repeat: no-repeat;
+	background-size: 100% 39px;
+	color:#FF4500;
+	text-align: center;
+}
+.conteudo{
+	width: 100%;
+	margin-top: 0;
+ 	background-color:#EDEDED;
+}
+.lista ul {
+	text-align: center;
+	padding:0px;
+    margin-left: 0;
+    margin-top: 0px;
+    list-style:none;
+}
+
+.lista ul li { 
+	margin: 30px;
+	display: inline;
+}
+
+
+
+
+
+	
+	
